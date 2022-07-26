@@ -115,7 +115,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                                 }
                               }
                             }).then((result) => {
-                              Swal.fire('Okey by', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
+                              Swal.fire('Okey put', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
                                 Swal.fire("See ya! Aku kangen ^^").then((result) => {
                                   selesai()
                                 });
